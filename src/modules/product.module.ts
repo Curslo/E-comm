@@ -50,6 +50,7 @@ export class Product implements IProduct {
     return;
   }
   validityDays():  void {
+    // Need more research
     return this.productexpdate - this.productmanfdte;
   }
 }
